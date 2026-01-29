@@ -23,8 +23,8 @@ A simple todo app built with Vue 3 using the Composition API.
 ## Project setup
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm run dev
 ```
 
 ## Possible Improvements
