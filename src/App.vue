@@ -136,6 +136,14 @@ onMounted(() => {
 
 <style scoped>
 
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .border_base {
   display: flex;
   flex-direction: column;
@@ -203,8 +211,11 @@ onMounted(() => {
 }
 
 @media screen and (max-width: 500px) {
+  .app {
+    width: 100%;
+  }
   .border_base {
-    width: 80%;
+    width: 90%;
   }
 
   .header h1 {

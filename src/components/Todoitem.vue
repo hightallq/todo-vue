@@ -81,7 +81,7 @@ function swapTask(taskId) {
     background-color: #cb0000;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .task {
         width: 220px;
         height: 50px;
